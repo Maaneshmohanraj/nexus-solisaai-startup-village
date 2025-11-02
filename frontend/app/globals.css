@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+
+@layer components {
+  .glass {
+    /* instead of bg-white/70, use bg-opacity */
+    @apply bg-white bg-opacity-70 border border-white border-opacity-20 backdrop-blur-md shadow-sm;
+  }
+  .card {
+    @apply bg-white dark:bg-neutral-900 border border-gray-200 dark:border-neutral-800 rounded-2xl shadow-sm;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium
+           bg-blue-600 text-white hover:bg-blue-700 transition;
+  }
+}
