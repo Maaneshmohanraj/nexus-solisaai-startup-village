@@ -1,11 +1,9 @@
-# Solisa AI — Lead→Meeting in Minutes (Phase 1 + Agentic Follow-ups)
+# Solisa AI — Lead→Meeting in Minutes (Phase 1, + Agentic Follow-ups + Phase 3 preview)
 
 Solisa AI turns raw insurance leads into **booked meetings in under two minutes**.
 It **auto-enriches** every form fill, generates **hyper-personalized** outreach (SMS, Email, LinkedIn), logs inbound replies, and proposes **agentic next-best actions**—so agents sell more and chase less.
 
 ---
-
-## ✨ What’s in this repo
 
 * **Backend (FastAPI)**
 
@@ -27,7 +25,7 @@ It **auto-enriches** every form fill, generates **hyper-personalized** outreach 
 
 ---
 
-## 🧱 Tech
+##  Tech
 
 * **Backend:** Python 3.11, FastAPI, SQLAlchemy, httpx, pydantic
 * **AI:** OpenAI SDK (Chat Completions; default model set to `gpt-4o-mini`)
@@ -39,7 +37,7 @@ It **auto-enriches** every form fill, generates **hyper-personalized** outreach 
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 * **Python 3.11+**
 * **Node 18+** (or 20+)
@@ -48,7 +46,7 @@ It **auto-enriches** every form fill, generates **hyper-personalized** outreach 
 
 ---
 
-## 🔑 Environment variables
+##  Environment variables
 
 ### Backend (`backend/.env`)
 
@@ -77,7 +75,7 @@ NEXT_PUBLIC_CALENDLY_URL=https://calendly.com/your-handle/new-meeting
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 ### 1) Backend
 
@@ -94,8 +92,8 @@ uvicorn main:app --reload --port 8010
 You should see:
 
 ```
-🎉 Solisa AI API running
-✅ Database ready!
+ Solisa AI API running
+ Database ready!
 ```
 
 **Optional: Postgres via Docker**
@@ -118,7 +116,7 @@ Open: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🧪 End-to-end demo script (50 seconds)
+##  End-to-end demo script (50 seconds)
 
 1. **Capture:** Go to **/capture**, enter name/email/phone → **Submit**.
    Backend saves the lead, enriches (mock or Clay), returns instantly.
@@ -131,7 +129,7 @@ Open: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🔌 Key API endpoints
+##  Key API endpoints
 
 * `POST /api/leads/capture` – create + enrich (async callback supported)
 * `GET  /api/leads` – list leads
@@ -149,7 +147,7 @@ Open: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🖥️ Frontend routes
+##  Frontend routes
 
 * **/** – Home
 * **/capture** – Lead intake form (with confirmation modal)
@@ -160,7 +158,7 @@ Open: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🧵 CLI / curl cookbook
+##  CLI / curl cookbook
 
 Create a lead:
 
@@ -219,7 +217,7 @@ curl -s -X POST "http://127.0.0.1:8010/api/leads/$LEAD_ID/followups/autopilot" |
 
 ---
 
-## 🧰 Troubleshooting
+##  Troubleshooting
 
 **Port in use (8010/3000):**
 
@@ -265,7 +263,7 @@ Use the exact route `/integrations/clay/callback` and pass header `x-callback-to
 
 ---
 
-## 📜 License
+##  License
 
 MIT — feel free to fork, extend, and ship.
 
