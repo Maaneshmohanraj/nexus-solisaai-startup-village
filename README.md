@@ -1,4 +1,4 @@
-# Solisa AI — Lead→Meeting in Minutes (Phase 1, + Agentic Follow-ups + Phase 3 preview)
+# Solisa AI — Lead→Meeting in Minutes (Phase 1, Agentic Follow-ups + Phase 3 preview)
 
 Solisa AI turns raw insurance leads into **booked meetings in under two minutes**.
 It **auto-enriches** every form fill, generates **hyper-personalized** outreach (SMS, Email, LinkedIn), logs inbound replies, and proposes **agentic next-best actions**—so agents sell more and chase less.
