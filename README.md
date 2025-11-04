@@ -118,18 +118,6 @@ Open: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-##  End-to-end demo script (50 seconds)
-
-1. **Capture:** Go to **/capture**, enter name/email/phone → **Submit**.
-   Backend saves the lead, enriches (mock or Clay), returns instantly.
-2. **Leads:** Go to **/leads**, open the card → click **Generate AI Messages**.
-   See SMS, Email (subject+body with **Calendly link**), LinkedIn.
-3. **Email:** Click **Compose in Mail** (on macOS) → Apple Mail popup with pre-filled email.
-   Or use **Send (Console)** to generate `.eml` preview and log to timeline.
-4. **Replies:** Use the **inbound SMS/email webhooks** (mock) to show two-way thread on the lead’s **Messages** tab.
-5. **Autopilot:** Click **Run Autopilot**, paste a messy call note/transcript → get **Next Best Action** (nudge SMS, call script, wait, escalate).
-
----
 
 ##  Key API endpoints
 
