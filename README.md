@@ -235,14 +235,4 @@ Use the exact route `/integrations/clay/callback` and pass header `x-callback-to
 
 **Apple Mail compose :** macOS only, requires Apple Mail installed and allowed to be scripted.
 
----
-
-
----
-
-##  License
-
-MIT — feel free to fork, extend, and ship.
-
----
-
+If you're here thanks for checking out, Have a good one :)
