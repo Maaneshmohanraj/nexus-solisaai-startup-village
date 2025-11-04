@@ -5,6 +5,8 @@ It **auto-enriches** every form fill, generates **hyper-personalized** outreach 
 
 ---
 
+Product demo: https://www.youtube.com/watch?v=5pijZUPhys8
+
 * **Backend (FastAPI)**
 
   * Lead capture + DB (SQLAlchemy)
@@ -243,23 +245,10 @@ npm i -D @tailwindcss/postcss postcss autoprefixer
 **Clay callback 403/404:**
 Use the exact route `/integrations/clay/callback` and pass header `x-callback-token: $CLAY_CALLBACK_TOKEN`.
 
-**Apple Mail compose doesn’t pop:** macOS only, requires Apple Mail installed and allowed to be scripted.
+**Apple Mail compose :** macOS only, requires Apple Mail installed and allowed to be scripted.
 
 ---
 
-## 🗺️ Roadmap
-
-* **Phase 2 – Agentic Follow-up Brain**
-
-  * Multi-turn memory across SMS/email/call notes
-  * Intent shift detection, human-perfect tone
-  * Escalation briefs incl. ROI snippets & scripts
-
-* **Phase 3 – Lifeline Retention Agent (UI preview included)**
-
-  * Life Event Engine (new baby, home, job)
-  * Policy Health Score (0–100), proactive offers
-  * Occasion Engine (anniversary, birthday) + upsells
 
 ---
 
@@ -269,6 +258,3 @@ MIT — feel free to fork, extend, and ship.
 
 ---
 
-## ⚡ Pitch (use in your repo description)
-
-**“Solisa AI turns raw insurance leads into booked meetings in under two minutes—auto-enriching every form fill, drafting hyper-personalized outreach, and running agentic follow-ups that remember context across channels.”**
