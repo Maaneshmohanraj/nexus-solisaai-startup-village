@@ -4,6 +4,7 @@ Solisa AI turns raw insurance leads into **booked meetings in under two minutes*
 It **auto-enriches** every form fill, generates **hyper-personalized** outreach (SMS, Email, LinkedIn), logs inbound replies, and proposes **agentic next-best actions**—so agents sell more and chase less.
 
 ---
+<img width="1536" height="1024" alt="architecture diagram  (1)" src="https://github.com/user-attachments/assets/4143be2b-94ed-4953-b2ee-2d3edc48d695" />
 
 Product demo: https://www.youtube.com/watch?v=5pijZUPhys8
 
